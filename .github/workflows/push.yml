@@ -15,7 +15,6 @@ jobs:
         projectPath:
           - .
         unityVersion:
-          - 2020.3.24f1
           - 2021.2.4f1
         targetPlatform:
           - StandaloneWindows64
