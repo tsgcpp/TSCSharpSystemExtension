@@ -18,7 +18,7 @@ namespace Tests.SampleType
                 return false;
             }
 
-            if (obj is not EquatableData other)
+            if (!(obj is EquatableData other))
             {
                 return false;
             }
